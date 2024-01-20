@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./assets/scss/style.css" />
+	</head>
+	<body>
+		<header class="formHeader">
+			<div class="container">
+				<div class="header">
+					<div class="logo">
+						<a href="./index.html"> Tasty </a>
+					</div>
+					<div>
+						<nav>
+							<ul>
+								<li><a href="./index.html">Home</a></li>
+								<li><a href="./index.html">Menu</a></li>
+								<li><a href="./form.html">Form</a></li>
+								<li><a href="./index.html">Reservation</a></li>
+								<li><a href="./index.html">Blog</a></li>
+								<li><a href="./index.html">About</a></li>
+								<li><a href="./index.html">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- INPUT SECTION -->
+
+		<section class="sec-inputBtns">
+			<div class="container">
+				<div id="form">
+					<div class="inputBtns">
+						<form>
+							<div>
+								<label for="categName">Name</label>
+								<input type="text" id="categName" placeholder="Write" />
+							</div>
+							<div>
+								<label for="categPrice">Price</label>
+								<input type="text" id="categPrice" placeholder="Write" />
+							</div>
+							<div>
+								<label for="categDesc">Description</label>
+								<input type="text" id="categDesc" placeholder="Write" />
+							</div>
+							<div>
+								<label for="categImage">Image Url</label>
+								<input type="text" id="categImage" placeholder="Write" />
+							</div>
+							<button type="submit">Add</button>
+						</form>
+					</div>
+					<div class="tableArea">
+                        <div>
+                            <div>
+                                <input type="text" placeholder="Search" name="" id="">
+                            </div>
+                            <div>
+                                <button class="sortBtn">Ascending</button>
+                            </div>
+                        </div>
+						<table>
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Image</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!-- <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr> -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<div class="footer">
+					<div class="footer-box">
+						<h3>Tasty</h3>
+						<p>
+							Far far away, behind the word mountains, far from the countries
+							Vokalia and Consonantia, there live the blind texts.
+						</p>
+						<div>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-facebook-f"></i>
+							<i class="fa-brands fa-twitter"></i>
+						</div>
+					</div>
+					<div class="footer-box">
+						<h3>Tasty</h3>
+						<p>
+							Far far away, behind the word mountains, far from the countries
+							Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+					<div class="footer-box">
+						<h3>Tasty</h3>
+						<p>
+							Far far away, behind the word mountains, far from the countries
+							Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+					<div class="footer-box">
+						<h3>Tasty</h3>
+						<p>
+							Far far away, behind the word mountains, far from the countries
+							Vokalia and Consonantia, there live the blind texts.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="./assets/js/form.js"></script>
+	</body>
+</html>

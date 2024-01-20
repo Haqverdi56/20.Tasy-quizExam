@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  padding: 8px 16px;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: #ffb400;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+body {
+  height: 400vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+header .header .logo a {
+  color: white;
+  border: 2px solid white;
+  padding: 8px;
+}
+header .header nav ul {
+  display: flex;
+  gap: 3rem;
+}
+header .header nav ul li a {
+  color: #f0f0f0;
+  font-size: 17px;
+}
+
+.sect-menu {
+  background-color: #e2dada;
+}
+.sect-menu .menus .menu-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sect-menu .menus .menu-bottom .menu-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.sect-menu .menus .menu-bottom .menu-buttons button {
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.sect-menu .menus .menu-bottom .menu-buttons button:hover {
+  background-color: #ffb400;
+}
+.sect-menu .menus .menu-bottom .grid-menus {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.sect-menu .menus .menu-bottom .grid-menus .grid-menu {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sect-menu .menus .menu-bottom .grid-menus .grid-menu .grid-menu-left {
+  display: flex;
+  gap: 1.5rem;
+}
+.sect-menu .menus .menu-bottom .grid-menus .grid-menu .grid-menu-left .menu-item-img {
+  width: 60px;
+  height: 60px;
+}
+.sect-menu .menus .menu-bottom .grid-menus .grid-menu .grid-menu-left .menu-item-img img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.sect-menu .menus .menu-bottom .grid-menus .grid-menu .grid-menu-left .grid-menu-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sect-menu .menus .menu-bottom .grid-menus .grid-menu .grid-menu-right {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #27272b;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  height: 100vh;
+  color: white;
+  padding: 8rem;
+}
+footer .footer .footer-box p {
+  margin: 40px 0 20px 0;
+}
+
+.formHeader {
+  position: relative;
+  background-color: teal;
+}
+
+#form .inputBtns {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+}
+#form .tableArea table {
+  border-collapse: collapse;
+}
+#form .tableArea table tr,
+#form .tableArea table td,
+#form .tableArea table th {
+  border: 1px solid #27272b;
+}
+#form .tableArea table tbody tr td img {
+  width: 60px;
+  height: 60px;
+}/*# sourceMappingURL=style.css.map */
